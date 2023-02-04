@@ -1,7 +1,14 @@
 # **M4: Applied deep learning and artificial intelligence**
 
+
 # Exercise 1 
-**Trained and Tested simple neural network model using pytorch**
+## Task 
+- Build, train, and evaluate a neural network with Pytorch.
+- It should have minimum *2 hidden* layers
+- Experiment with at least *5 different variations* of hyperparameters (n layers / neurons, activation function, epochs, optimizers, learning rate etc.).
+- Use gradio to build a simple interactive demo (in the notebook).
+
+## Description
 - We used HR attrition Dataset, intially we selcted the important feature with attrition as our target. 
 - Experimented simple Neural Network model with different variations : 
   - n layer = 3 (include output layer: 2 hidden layer and 1 output layer), 4 (include output layer: 3 hidden layer and 1 output layer)
