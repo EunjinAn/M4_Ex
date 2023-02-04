@@ -6,8 +6,9 @@
 - Trained model with 4 inputs and 1 hidden layer. For this model we tested different number of epochs and learning rate. 
 - We tested the model with best hyperparameters. 
 
-## our result
+## Our result
 From training result, we select the model with following conditions.
 n_layer = 3, learning_rate = 0.01, hidden_Activation function = Tanh, Output_Activation function = Sigmoid, Optimizer = Adam.
 
-![image](https://user-images.githubusercontent.com/112074208/216768568-b6651453-08a4-4ca9-920a-e07c69670fe9.png)
+![image](https://user-images.githubusercontent.com/112074208/216768787-0886487a-b788-411d-985c-743fced5636b.png)
+
