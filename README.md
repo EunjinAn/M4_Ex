@@ -2,8 +2,19 @@
 ## Exercise 1 
 **Trained and Tested simple neural network model using pytorch**
 - We used HR attrition Dataset, intially we selcted the important feature with attrition as our target. 
-- Trained a simple model with 4 inputs and 1 output, the results were good but we explored more compleax model. 
-- Trained model with 4 inputs and 1 hidden layer. For this model we tested different number of epochs and learning rate. 
+- Experimented simple Neural Network model with different variations : 
+  - n layer = 3 (include output layer: 2 hidden layer and 1 output layer), 4 (include output layer: 3 hidden layer and 1 output layer)
+  - epochs = 50 and 100
+  - hidden activation function =ReLU / Sigmoid / Tanh
+  - output layer function = Sigmoid / Softmax Activation
+  - learning rate = 0.01 / 0.05
+- The best results were found with following hyperparameters : 
+  - n_layer = 3
+  - epochs = 100 (best epochs = 60)
+  - hidden layers function = Tanh
+  - Output layer function = Sigmoid
+  - learning rate = 0.01
+  - optimizer = Adam
 - We tested the model with best hyperparameters. 
 
 ## Our result
