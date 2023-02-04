@@ -1,5 +1,6 @@
-# M4: Applied deep learning and artificial intelligence
-## Exercise 1 
+# **M4: Applied deep learning and artificial intelligence**
+
+# Exercise 1 
 **Trained and Tested simple neural network model using pytorch**
 - We used HR attrition Dataset, intially we selcted the important feature with attrition as our target. 
 - Experimented simple Neural Network model with different variations : 
