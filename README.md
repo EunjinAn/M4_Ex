@@ -9,7 +9,5 @@
 ## our result
 From training result, we select the model with following conditions.
 n_layer = 3, learning_rate = 0.01, hidden_Activation function = Tanh, Output_Activation function = Sigmoid, Optimizer = Adam.
-![image](https://user-images.githubusercontent.com/112074208/216768592-af142bbd-29be-4330-b338-62f9be7e352d.png)
-
 
 ![image](https://user-images.githubusercontent.com/112074208/216768568-b6651453-08a4-4ca9-920a-e07c69670fe9.png)
