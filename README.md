@@ -26,7 +26,7 @@
 - We tested the model with best hyperparameters. 
 
 ## Our result
-From training result, we select the model with the result **min_error = 0.1192**, and the following conditions.
+From training result, we select the model with the result <font color = 'red'>**min_error = 0.1192**</font>, and the following conditions.
 n_layer = 3, learning_rate = 0.01, hidden_Activation function = Tanh, Output_Activation function = Sigmoid, Optimizer = Adam.
 
 ![image](https://user-images.githubusercontent.com/112074208/216768787-0886487a-b788-411d-985c-743fced5636b.png)
