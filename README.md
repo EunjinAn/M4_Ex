@@ -13,15 +13,14 @@
 - Then using the vocab converted the text tokens into numbers, added padding to make all sequence of same length then a torch dataloader was created with token_ids and labels tensors.
 - Then we trained a simple LSTM model with a embedding layer, lstm and a linear layer.
 - Then we experimented with some hyperparameters mainly Optimiser and number of hidden layers.
-
+<hr>
 - Results : 
-
-| Epoches 	| Hidden Layers 	| Learning rate| Optimiser 	| MSE   	|
-|---------	|---------------	|-----------	 |-----------	|-------	|
-| 50      	| 6             	|0.01          | SGD       	| **0.236** 	|
-| 50      	| 6             	|0.01          | AdamW     	| 0.240 	|
-| 50      	| 3             	|0.01          | SGD       	 | **0.239** 	|
-| 50      	| 3             	|0.01          | AdamW     	| 0.278 	|
+  | Epoches 	| Hidden Layers 	| Learning rate| Optimiser 	| MSE   	|
+  |---------	|---------------	|-----------	 |-----------	|-------	|
+  | 50      	| 6             	|0.01          | SGD       	| **0.236** 	|
+  | 50      	| 6             	|0.01          | AdamW     	| 0.240 	|
+  | 50      	| 3             	|0.01          | SGD       	 | **0.239** 	|
+  | 50      	| 3             	|0.01          | AdamW     	| 0.278 	|
   
 
 # Exercise 1 
