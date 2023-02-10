@@ -2,19 +2,26 @@
 # Exercise 2
 ## CNN
 - we used MNIST DATA with 60,000 train data and 10,000 test data form torch utilities.
-- we found good model with <u>99.19% accuracy.
+- we found good model with <u>99.19%</u> accuracy.
 - the model has hyperparameters with 32 filters, 50 epoch, 0.001 learning rate and Adam optimizer.
 ![image](https://user-images.githubusercontent.com/112074208/218149091-771d4930-f8b6-42a7-93a7-f08291386d6a.png)
 
 ## LSTM
+- We used Political tweet dataset but only used the first 1000 data as using the full dataset the training time was too high.
+- We first preprocessed the text using a tweet-preprocessor and we also added some code to replace remaining symbols.
+- After splitting the dataset into train and test sets, we created a vocab from the train set text.
+- Then using the vocab converted the text tokens into numbers, added padding to make all sequence of same length then a torch dataloader was created with token_ids and labels tensors.
+- Then we trained a simple LSTM model with a embedding layer, lstm and a linear layer.
+- Then we experimented with some hyperparameters mainly Optimiser and number of hidden layers.
+
 - Results : 
 
-| Epoches 	| Hidden Layers 	| Optimiser 	| MSE   	|
-|---------	|---------------	|-----------	|-------	|
-| 50      	| 6             	| SGD       	| **0.236** 	|
-| 50      	| 6             	| AdamW     	| 0.240 	|
-| 50      	| 3             	| SGD       	| **0.239** 	|
-| 50      	| 3             	| AdamW     	| 0.278 	|
+| Epoches 	| Hidden Layers 	| Learning rate| Optimiser 	| MSE   	|
+|---------	|---------------	|-----------	 |-----------	|-------	|
+| 50      	| 6             	|0.01          | SGD       	| **0.236** 	|
+| 50      	| 6             	|0.01          | AdamW     	| 0.240 	|
+| 50      	| 3             	|0.01          | SGD       	 | **0.239** 	|
+| 50      	| 3             	|0.01          | AdamW     	| 0.278 	|
   
 
 # Exercise 1 
