@@ -1,4 +1,10 @@
 # **M4: Applied deep learning and artificial intelligence**
+# Exercise 2
+## CNN
+- we used MNIST DATA with 60,000 train data and 10,000 test data form torch utilities.
+- we found good model with <u>99.19% accuracy.
+- the model has hyperparameters with 32 filters, 50 epoch, 0.001 learning rate and Adam optimizer.
+![image](https://user-images.githubusercontent.com/112074208/218149091-771d4930-f8b6-42a7-93a7-f08291386d6a.png)
 
 
 # Exercise 1 
