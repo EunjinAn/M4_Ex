@@ -8,13 +8,14 @@
 
 ## LSTM
 - Results : 
-| Epoches 	| Hidden Layers 	| Optimiser 	| MSE       	|
-|---------	|---------------	|-----------	|------------ |
-| 50      	| 6             	| SGD       	| **0.236** 	|
-| 50      	| 6             	| AdamW     	| 0.240 	    |
-| 50      	| 3             	| SGD       	| **0.239** 	|
-| 50      	| 3             	| AdamW     	| 0.278     	|
 
+| Epoches 	| Hidden Layers 	| Optimiser 	| MSE   	|
+|---------	|---------------	|-----------	|-------	|
+| 50      	| 6             	| SGD       	| 0.236 	|
+| 50      	| 6             	| AdamW     	| 0.240 	|
+| 50      	| 3             	| SGD       	| 0.239 	|
+| 50      	| 3             	| AdamW     	| 0.278 	|
+  
 
 # Exercise 1 
 ## Task 
