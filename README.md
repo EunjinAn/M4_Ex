@@ -6,6 +6,15 @@
 - the model has hyperparameters with 32 filters, 50 epoch, 0.001 learning rate and Adam optimizer.
 ![image](https://user-images.githubusercontent.com/112074208/218149091-771d4930-f8b6-42a7-93a7-f08291386d6a.png)
 
+## LSTM
+- Results : 
+| Epoches 	| Hidden Layers 	| Optimiser 	| MSE       	|
+|---------	|---------------	|-----------	|------------ |
+| 50      	| 6             	| SGD       	| **0.236** 	|
+| 50      	| 6             	| AdamW     	| 0.240 	    |
+| 50      	| 3             	| SGD       	| **0.239** 	|
+| 50      	| 3             	| AdamW     	| 0.278     	|
+
 
 # Exercise 1 
 ## Task 
