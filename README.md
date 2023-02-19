@@ -4,11 +4,18 @@
 ### Dataset
 1. we created data, chatbot made sentences related to denmark.
 2. Youtube description dataset from hugging dataset.
-3.  
+3. 25k photos dataset from Unsplash  
 ### Pre-trained Model
-- 'sentence-transformers/all-MiniLM-L6-v2'
-- 'AI-Growth-Lab/PatentSBERTa'
-- 
+1. 'sentence-transformers/all-MiniLM-L6-v2'
+2. 'AI-Growth-Lab/PatentSBERTa'
+3. 'sentence-transformer/clip-ViT-B-32'
+
+
+### Task Description 
+1. 
+2. 
+3. CLIP Model encodes text and images to a shared vector space. For our usecase we encode the unsplash images and then use sentence-transformers semantic search to find similar images for a given images or prompt. We also have a gradio  interface that allows us to semantic search using text prompt. **(file : M4_Exercise_03_image_search.ipynb)**
+
 
 
 # Exercise 2
