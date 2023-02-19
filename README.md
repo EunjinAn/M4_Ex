@@ -1,20 +1,20 @@
 # **M4: Applied deep learning and artificial intelligence**
 # Exercise 3
-## SBERT : we did three kinds of work with SBERT
+## SBERT : We did SBERT with three kinds of samples(sentences, youtube transcription, image)
 ### Dataset
 1. we created data, chatbot made sentences related to denmark.
-2. Youtube description dataset from hugging dataset.
+2. Downloaded Youtube description(jamescalam/youtube-transcriptions) dataset from hugging-face dataset.
 3. 25k photos dataset from Unsplash  
 ### Pre-trained Model
-1. 'sentence-transformers/all-MiniLM-L6-v2'
+1. 'all-MiniLM-L6-v2'
 2. 'AI-Growth-Lab/PatentSBERTa'
-3. 'sentence-transformer/clip-ViT-B-32'
+3. 'clip-ViT-B-32'
 
+### Task Description : Our all SBERT exercises have a gradio interface that allows us to semantic search using text prompt. 
 
-### Task Description 
-1. 
-2. 
-3. CLIP Model encodes text and images to a shared vector space. For our usecase we encode the unsplash images and then use sentence-transformers semantic search to find similar images for a given images or prompt. We also have a gradio  interface that allows us to semantic search using text prompt. 
+1. We tried simple SBERT using the pre-trained model 'all-MiniLM-L6-v2'. we created some simple sentences and imported about 25 sentences related to Denmark from chat GPT, we did word embedding. The result was very reasonable even though we used very small samples.
+2. We did second attempt using data(youtube transcriptions from Hugging face) and model'AI-Growth-Lab/PatentSBERTa'(made of Aalborg university), our data size was heavy, so we used 100 train dataset, A trained model found similar sentences through question(query operation).
+3. CLIP Model encodes text and images to a shared vector space. For our usecase we encode the unsplash images and then use sentence-transformers semantic search to find similar images for a given images or prompt. 
 **(file : M4_Exercise_03_image_search.ipynb)**
 
 
