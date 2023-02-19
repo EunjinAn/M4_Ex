@@ -14,7 +14,8 @@
 ### Task Description 
 1. 
 2. 
-3. CLIP Model encodes text and images to a shared vector space. For our usecase we encode the unsplash images and then use sentence-transformers semantic search to find similar images for a given images or prompt. We also have a gradio  interface that allows us to semantic search using text prompt. **(file : M4_Exercise_03_image_search.ipynb)**
+3. CLIP Model encodes text and images to a shared vector space. For our usecase we encode the unsplash images and then use sentence-transformers semantic search to find similar images for a given images or prompt. We also have a gradio  interface that allows us to semantic search using text prompt. 
+**(file : M4_Exercise_03_image_search.ipynb)**
 
 
 
