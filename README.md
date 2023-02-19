@@ -2,9 +2,9 @@
 # Exercise 3
 ## SBERT : we did three kinds of work with SBERT
 ### Dataset
-- we create data, chatbot made sentences related to denmark.
-- Youtube description dataset using from hugging dataset.
-- 
+1. we created data, chatbot made sentences related to denmark.
+2. Youtube description dataset from hugging dataset.
+3.  
 ### Pre-trained Model
 - 'sentence-transformers/all-MiniLM-L6-v2'
 - 'AI-Growth-Lab/PatentSBERTa'
