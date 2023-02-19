@@ -1,4 +1,16 @@
 # **M4: Applied deep learning and artificial intelligence**
+# Exercise 3
+## SBERT : we did three kinds of work with SBERT
+### Dataset
+- we create data, chatbot made sentences related to denmark.
+- Youtube description dataset using from hugging dataset.
+- 
+###Pre-trained Model
+- 'sentence-transformers/all-MiniLM-L6-v2'
+- 'AI-Growth-Lab/PatentSBERTa'
+- 
+
+
 # Exercise 2
 ## CNN
 - we used MNIST DATA with 60,000 train data and 10,000 test data form torch utilities.
