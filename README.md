@@ -6,7 +6,7 @@ In this project, We challenged the text summary task. The model("google/mt5-smal
 note that, Our assignments can be found [https://huggingface.co/EJaalborg2022/mt5-small-finetuned-beer-ctg-en] of HF.
 **(file : M4_Exercise_04_TextSummarization.ipynb)**
 
-## Text emotion analysis (M4_Exercise_04_Emotion_analysis.ipynb)
+## Text emotion analysis 
 ### Dataset
 1. [CARER: Contextualized Affect Representations for Emotion Recognition](https://www.kaggle.com/datasets/parulpandey/emotion-dataset)
 ### Pre-trained Model
@@ -26,7 +26,7 @@ note that, Our assignments can be found [https://huggingface.co/EJaalborg2022/mt
 - Dataset : **[Sadiksha/sentiment_analysis_data](https://huggingface.co/datasets/Sadiksha/sentiment_analysis_data)**
 - Space : **[spaces/Sadiksha/Sentiment_analysis_bert](https://huggingface.co/spaces/Sadiksha/Sentiment_analysis_bert)**
 
-**(file : M4_Exercise_04_TextSummarization.ipynb)**
+**(file : M4_Exercise_04_Emotion_analysis.ipynb)**
 
 
 
