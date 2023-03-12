@@ -1,11 +1,30 @@
 # **M4: Applied deep learning and artificial intelligence**
 # Exercise 4
-##  How to use Inference APIs for connecting to HuggingFace models
-### summarization 
+##  **How to use Inference APIs for connecting to HuggingFace models**
+## summarization 
 In this project, I challenged the text summary task. The model("google/mt5-small") and dataset("arize-ai/beer_reviews_label_drift_neg") were downloaded and used from Hugging Face, and the Rounge score was used to evaluate the summary task. 
 note that, Our assignments can be found [https://huggingface.co/EJaalborg2022/mt5-small-finetuned-beer-ctg-en] of HF.
 **(file : M4_Exercise_04_TextSummarization.ipynb)**
 
+## Text emotion analysis
+### Dataset
+1. [CARER: Contextualized Affect Representations for Emotion Recognition](https://www.kaggle.com/datasets/parulpandey/emotion-dataset)
+### Pre-trained Model
+1. 'bert-base-uncased'
+
+### Fine Tuning
+- We created a pytorch dataset class to feed the data into the model.
+- By using BertTokenizer we then tokenized the data to convert them to input_ids, token_type_ids and attention_mask.
+- Then using the transformer library's BertForSequenceClassification we fetched the pretrained 'bert-base-uncased' model from hugging face.
+- We performed fine tuning on the model to perform our task.
+
+### Gradio & Huggingface
+- We have also created a transformer pipeline and gradio demo in the Notebook itself which allows us to use the model to make predictions.
+- Then we also created a space in huggingface with a very simple gradio interface allowing to make predictions.
+
+- Model : **[Sadiksha/sentiment_analysis_bert](https://huggingface.co/Sadiksha/sentiment_analysis_bert)**
+- Dataset : **[Sadiksha/sentiment_analysis_data](https://huggingface.co/datasets/Sadiksha/sentiment_analysis_data)**
+- Space : **[spaces/Sadiksha/Sentiment_analysis_bert](https://huggingface.co/spaces/Sadiksha/Sentiment_analysis_bert)**
 
 
 
