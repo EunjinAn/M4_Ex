@@ -1,4 +1,14 @@
 # **M4: Applied deep learning and artificial intelligence**
+# Exercise 4
+##  How to use Inference APIs for connecting to HuggingFace models
+1. summarization 
+In this project, I challenged the text summary task. The model("google/mt5-small") and dataset("arize-ai/beer_reviews_label_drift_neg") were downloaded and used from Hugging Face, and the Rounge score was used to evaluate the summary task. 
+note that, Our assignments can be found [https://huggingface.co/EJaalborg2022/mt5-small-finetuned-beer-ctg-en] of HF.
+**(file : M4_Exercise_04_TextSummarization.ipynb)**
+
+
+
+
 # Exercise 3
 ## SBERT : We did SBERT with three kinds of samples(sentences, youtube transcription, image)
 ### Dataset
