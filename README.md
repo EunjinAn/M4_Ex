@@ -2,9 +2,17 @@
 # Exercise 4
 ##  **How to use Inference APIs for connecting to HuggingFace models**
 ## Summarization 
+### Dataset
+- ["arize-ai/beer_reviews_label_drift_neg"](https://huggingface.co/datasets/arize-ai/beer_reviews_label_drift_neg)
+### Pre-trained Model
+- [google/mt5-small](https://huggingface.co/google/mt5-small)
+### Task Description
 In this project, We challenged the text summary task. The model("google/mt5-small") and dataset("arize-ai/beer_reviews_label_drift_neg") were downloaded and used from Hugging Face, and the Rounge score was used to evaluate the summary task. 
 note that, Our assignments can be found [https://huggingface.co/EJaalborg2022/mt5-small-finetuned-beer-ctg-en] of HF.
 **(file : M4_Exercise_04_TextSummarization.ipynb)**
+
+- Model : [EJaalborg2022/mt5-small-finetuned-beer-ctg-en](https://huggingface.co/EJaalborg2022/mt5-small-finetuned-beer-ctg-en)
+- Dataset : [EJaalborg2022/mt5-small-finetuned-beer-ctg-en](https://huggingface.co/datasets/EJaalborg2022/mt5-small-finetuned-beer-ctg-en)
 
 ## Text emotion analysis 
 ### Dataset
